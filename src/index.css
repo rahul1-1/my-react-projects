@@ -108,27 +108,7 @@ h5 {
   font-size: clamp(0.875rem, 1.5vw, 1.5rem); /* Tiny heading */
 }
 
-/* BIGGER FONTS */
-/* h1 {
-  font-size: clamp(3rem, 6vw, 6rem);
-}
 
-h2 {
-  font-size: clamp(2.5rem, 5vw, 5rem);
-}
-
-h3 {
-  font-size: clamp(2rem, 4vw, 4rem);
-}
-
-h4 {
-  font-size: clamp(1.5rem, 3vw, 3rem);
-}
-
-h5 {
-  font-size: clamp(1rem, 2vw, 2rem);
-}
- */
 
 .text {
   margin-bottom: 1.5rem;
@@ -285,7 +265,7 @@ body {
   background: var(--grey-200);
 }
 .hero {
-  min-height: 40vh;
+  min-height: 35vh;
   background: var(--white);
   display: flex;
   align-items: center;
@@ -309,6 +289,9 @@ body {
   color: var(--grey-600);
 }
 @media (min-width: 992px) {
+  .hero{
+    max-height:65vh;
+  }
   .hero-center {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -316,7 +299,11 @@ body {
     gap: 4rem;
   }
   .img-container {
+    
     display: block;
+  }
+  img{
+    height:60vh;
   }
 }
 /* 
