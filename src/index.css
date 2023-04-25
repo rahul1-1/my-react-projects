@@ -238,7 +238,7 @@ ul {
   border-radius: 50%;
   border-top-color: var(--primary-500);
   animation: spinner 0.6s linear infinite;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 /* title */
@@ -336,7 +336,7 @@ PROJECTS
 }
 
 .project .img {
-  height: 15rem;
+  height: 12rem;
   border-top-right-radius: var(--borderRadius);
   border-top-left-radius: var(--borderRadius);
 }
