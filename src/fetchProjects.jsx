@@ -20,7 +20,7 @@ export const useFetchProjects = () => {
         const img = image?.fields?.file?.url;
         return { title, url, id, img };
       });
-      const data = [...projects].reverse()
+      const data = [...projects]
       setProjects(data);
       setLoading(false);
     } catch (error) {
